@@ -173,27 +173,3 @@
 			margin-right: auto;
 			float: center;
 		}
-
-.showAbstract[aria-expanded="false"]::after {
-    font-family: FontAwesome;
-    content: " \f078";
-}
-
-.showAbstract[aria-expanded="true"]::after {
-    font-family: FontAwesome;
-    content: " \f077";
-}
-
-.section {
-    margin-bottom: 0.8cm;
-    margin-top: 0.25cm;
-}
-
-
-.wip_no_dist {
-	margin-bottom:5px;
-}
-
-.wip_dist {
-	margin-bottom:25px;
-}
