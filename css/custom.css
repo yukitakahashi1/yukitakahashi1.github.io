@@ -85,7 +85,7 @@
 
 		a {
 			color: #52adc8;
-			/* border-bottom: 1px solid #52adc8; */
+			border-bottom: 0px solid #52adc8; /* initial value: 1px */
 			/*#6fd7f1*/
 			font-family: 'Open Sans';
 			text-decoration: none;
