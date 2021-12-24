@@ -92,8 +92,9 @@
 		}
 
 		a:hover {
-			border-bottom: 1px solid #ddd;
+			/*border-bottom: 1px solid #ddd;*/
 			color: #555;
+			text-decoration: underline; /*added by me*/
 		}
 
 		p,
