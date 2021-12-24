@@ -93,7 +93,7 @@
 
 		a:hover {
 			/*border-bottom: 1px solid #ddd;*/
-			color: #555;
+			color: darken(#226e93, 50%); /*initial: #555*/
 			text-decoration: underline; /*added by me*/
 		}
 
