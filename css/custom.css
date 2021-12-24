@@ -85,17 +85,17 @@
 
 		a {
 			color: #226e93;
-			border-bottom: 0px solid #226e93;
+			/*border-bottom: 0px solid #226e93;*/
 			/*#6fd7f1*/
 			font-family: 'Open Sans';
 			text-decoration: none;
 		}
-/*
+
 		a:hover {
 			border-bottom: 1px solid #ddd;
 			color: #555;
 		}
-*/
+
 		p,
 		ul {
 			padding: 0 .5em 0 .5em;
