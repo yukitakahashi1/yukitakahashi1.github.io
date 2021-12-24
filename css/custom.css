@@ -90,12 +90,12 @@
 			font-family: 'Open Sans';
 			text-decoration: none;
 		}
-
+/*
 		a:hover {
 			border-bottom: 1px solid #ddd;
 			color: #555;
 		}
-
+*/
 		p,
 		ul {
 			padding: 0 .5em 0 .5em;
