@@ -93,7 +93,8 @@
 
 		a:hover {
 			/*border-bottom: 1px solid #ddd;*/
-			color: darken(#226e93, 50%); /*initial: #555*/
+			color: #555;
+			filter: brightness(85%); /*added by me*/
 			text-decoration: underline; /*added by me*/
 		}
 
