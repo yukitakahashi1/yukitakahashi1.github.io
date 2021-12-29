@@ -34,11 +34,12 @@
 		h3 {
 			color: #555;
 			font-family: 'Open Sans';
-			font-size: 1em; /*initial: 1.125em*/
-			line-height: 1.22222222em;
-			font-weight: 400; /*initial: 600*/
+			font-size: 1.75em;
+			line-height: 1.25em;
+			font-weight: 600;
 			display: block;
-			margin-bottom: .75em;
+			/*margin-top: 1em;*/
+			border-bottom: 1px solid;
 		}
 
 		h4 {
