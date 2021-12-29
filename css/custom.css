@@ -105,17 +105,17 @@
 		.column {}
 
 		.left {
+			float: left;
+			/*flex: 80%;*/
+			width: 75%;
+		}
+
+		.right {
 			float: center;
 			/*flex: 20%;*/
 			width: 25%;
 			margin-left: auto;
 			margin-right: auto;
-		}
-
-		.right {
-			float: left;
-			/*flex: 80%;*/
-			width: 75%;
 		}
 
 		.row {
