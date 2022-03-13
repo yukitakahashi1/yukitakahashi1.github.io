@@ -101,8 +101,8 @@
 		.button {  /*see this website for how each parameter works: https://www.w3schools.com/css/css3_buttons.asp*/
 			background-color: #e2e6ea;
 			color: #555;
-			border-color: #dae0e5;
-			border: 1px;
+			/*border-color: #dae0e5;*/
+			border: 1px solid #dae0e5;
 			border-radius: 4px; /*roundedness of the button*/
 			padding: 0px 4px; /*height width*/
 			text-align: center;
