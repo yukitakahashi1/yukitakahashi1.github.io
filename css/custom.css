@@ -100,11 +100,10 @@
 
 		.button {
 			background-color: #e7e7e7;
-			color: #226e93;
+			color: #555;
 			border: none;
-			border-radius: 8px;
-			color: white;
-			padding: 1px 1px; /*height width*/
+			border-radius: 4px;
+			padding: 0px 0px; /*height width*/
 			text-align: center;
 			text-decoration: none;
 			display: inline-block;
