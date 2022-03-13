@@ -101,7 +101,7 @@
 		.button {  /*see this website for how each parameter works: https://www.w3schools.com/css/css3_buttons.asp*/
 			background-color: #e2e6ea;
 			color: #555;
-			border: 0.5px solid #dae0e5; /*border thickness, border line type, border color*/
+			border: 1px solid #dae0e5; /*border thickness, border line type, border color*/
 			border-radius: 4px; /*roundedness of the button*/
 			padding: 0px 5px; /*height width*/
 			text-align: center;
