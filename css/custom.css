@@ -98,13 +98,13 @@
 			text-decoration: underline; /*added by me*/
 		}
 
-		.button {
+		.button {  /*see this website for how each parameter works: https://www.w3schools.com/css/css3_buttons.asp*/
 			background-color: #e2e6ea;
 			color: #555;
 			border-color: #dae0e5;
 			border: 1px;
-			border-radius: 4px;
-			padding: 0px 2px; /*height width*/
+			border-radius: 4px; /*roundedness of the button*/
+			padding: 0px 4px; /*height width*/
 			text-align: center;
 			text-decoration: none;
 			display: inline-block;
