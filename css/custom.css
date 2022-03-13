@@ -99,11 +99,12 @@
 		}
 
 		.button {
-			background-color: #e7e7e7;
+			background-color: #f8f9fa;
 			color: #555;
+			border-color:#f8f9fa;
 			border: none;
 			border-radius: 4px;
-			padding: 0px 0px; /*height width*/
+			padding: 0px 1px; /*height width*/
 			text-align: center;
 			text-decoration: none;
 			display: inline-block;
