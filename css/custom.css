@@ -112,6 +112,17 @@
 			cursor: pointer;
 		}
 
+		button { /*copied from h4*/
+			color: #555;
+			font-family: 'Open Sans';
+			font-size: 1em;
+			line-height: 1.22222222em;
+			font-weight: 400;
+			display: block;
+			margin-bottom: .75em;
+			text-decoration: none;
+		}
+
 		p,
 		ul {
 			padding: 0 .5em 0 .5em;
