@@ -129,23 +129,13 @@
 
 </body>
 <script>
-function visib(id) {
-    var x = document.getElementById(id);
-    // Toggle the height between 0 and scrollHeight
-    if (x.style.height.replace('px', '') > 0) {
-        x.style.height = '0px';
-    } else {
-        // Important: Reset the height temporarily to calculate the scroll height
-        x.style.height = 'auto';
-        var naturalHeight = x.scrollHeight + 'px';
-        x.style.height = '0px';
-
-        // Allow the browser to render the change, then set the natural height
-        setTimeout(function() {
-            x.style.height = naturalHeight;
-        }, 10);
-    }
-}
+ function visib(id) {
+   var x = document.getElementById(id);
+   if (x.style.display === "block") {
+     x.style.display = "none";
+   } else {
+     x.style.display = "block";
+   }
 </script>
 	<!-- [//]: This javascript is the button to show abstract; from Jonathan Roth's github page: https://github.com/jonathandroth/jonathandroth.github.io/blob/master/_pages/papers.md (also refer to Carlos Cinelli's github page: https://github.com/carloscinelli/carloscinelli.github.io/blob/master/publications.html and Luca Henkel's github page: https://github.com/Luca-Henkel/Luca-Henkel.github.io) Also refer to Lukas Kiessling's website https://github.com/lukaskiessling/lukaskiessling.github.io-->
 </html>
