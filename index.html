@@ -129,13 +129,13 @@
 
 </body>
 <script>
- function visib(id) {
-  var x = document.getElementById(id);
-  if (x.style.display === "block") {
-    x.style.display = "none";
-  } else {
-    x.style.display = "block";
-  }
+function visib(id) {
+    var x = document.getElementById(id);
+    if (x.style.height !== '0px' && x.style.height !== '') {
+        x.style.height = '0px';
+    } else {
+        x.style.height = x.scrollHeight + 'px';
+    }
 }
 </script>
 	<!-- [//]: This javascript is the button to show abstract; from Jonathan Roth's github page: https://github.com/jonathandroth/jonathandroth.github.io/blob/master/_pages/papers.md (also refer to Carlos Cinelli's github page: https://github.com/carloscinelli/carloscinelli.github.io/blob/master/publications.html and Luca Henkel's github page: https://github.com/Luca-Henkel/Luca-Henkel.github.io) Also refer to Lukas Kiessling's website https://github.com/lukaskiessling/lukaskiessling.github.io-->
