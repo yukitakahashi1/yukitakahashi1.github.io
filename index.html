@@ -131,10 +131,19 @@
 <script>
 function visib(id) {
     var x = document.getElementById(id);
-    if (x.style.height !== '0px' && x.style.height !== '') {
+    // Toggle the height between 0 and scrollHeight
+    if (x.style.height.replace('px', '') > 0) {
         x.style.height = '0px';
     } else {
-        x.style.height = x.scrollHeight + 'px';
+        // Important: Reset the height temporarily to calculate the scroll height
+        x.style.height = 'auto';
+        var naturalHeight = x.scrollHeight + 'px';
+        x.style.height = '0px';
+
+        // Allow the browser to render the change, then set the natural height
+        setTimeout(function() {
+            x.style.height = naturalHeight;
+        }, 10);
     }
 }
 </script>
