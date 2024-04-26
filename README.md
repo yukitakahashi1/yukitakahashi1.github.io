@@ -1,1 +1,1 @@
-This is my personal website. This website borrowed heavily from several websites, including Lukas Kiessling's (https://lukaskiessling.github.io/) and Jonathan Roth's (https://jonathandroth.github.io/).
+This is my personal website. This website borrowed heavily from several websites, in particular Lukas Kiessling's (https://lukaskiessling.github.io/).
