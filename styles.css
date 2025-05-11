@@ -256,11 +256,6 @@ img {
         filter: brightness(85%);
 }
 
-.abstract-content {
-  padding: 10px;
-  background-color: #f1f1f1;
-  border: 1px dotted #ccc;
-}
 
 .button{
   -moz-user-select: none;
@@ -274,4 +269,10 @@ img {
   overflow: hidden;
   max-height: 0;
   transition: max-height 0.2s ease-out;
+}
+
+.abstract-content {
+  padding: 10px;
+  background-color: #f1f1f1;
+  border: 1px dotted #ccc;
 }
