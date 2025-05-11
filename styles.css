@@ -94,12 +94,12 @@ img {
 }
 
 .left {
-  width: 33%;
+  width: 50%;
   text-align: left;
 }
 
 .right {
-  width: 66%;
+  width: 50%;
   text-align: right;
 }
 
