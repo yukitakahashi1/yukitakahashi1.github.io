@@ -1,1 +1,1 @@
-This is my personal website. This website borrowed heavily from several websites, in particular Lukas Kiessling's (https://lukaskiessling.github.io/).
+This is my personal website. This website borrowed heavily from several websites, in particular Yang Zhong (https://yangzhong.nl/) and Julius Ilciukas (https://juliusilciukas.nl/).
