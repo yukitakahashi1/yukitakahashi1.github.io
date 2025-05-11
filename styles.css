@@ -196,7 +196,7 @@ img {
   }
   #pic img {
     display: inline-block;
-    margin: 0 auto;
+    margin: 20px auto;
   }
 
   .navItem {
