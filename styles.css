@@ -117,6 +117,12 @@ img {
   background-color: white; 
 }
 
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 .paperTitle {
   margin-bottom: 0px;
 }
@@ -149,11 +155,11 @@ img {
       width: 100%;
   }
 
-  #pic,
-  #bio {
-    width: 100% !important;
-    float: none;           /* cancel the float so they stack cleanly */
-  }
+#pic,
+#about {
+     width: 100% !important;
+     float: none;
+   }
 
   #container1 {
       display: flex;
