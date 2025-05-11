@@ -1,6 +1,12 @@
 This favicon was generated using the following font:
 
+- Font Text: Y
 - Font Title: Sen
+- Font Variant: Medium 500 Normal
+- Font Size: 172
+- font Color: #226e93
+- Background Color: #ffffff00 (transparent)
 - Font Author: undefined
 - Font Source: https://fonts.gstatic.com/s/sen/v9/6xK0dSxYI9_dkN18-vZKK2EISBi5H47KlD9q78A.ttf
 - Font License: undefined)
+- website: https://favicon.io/favicon-generator/
