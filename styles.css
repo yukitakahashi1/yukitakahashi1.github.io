@@ -107,6 +107,16 @@ img {
   height: 5em;
 }
 
+#pic {
+  width: 40%;
+  background-color: white; 
+}
+
+#about {
+  width: 60%;
+  background-color: white; 
+}
+
 .paperTitle {
   margin-bottom: 0px;
 }
@@ -138,11 +148,22 @@ img {
   .column.left, .column.right {
       width: 100%;
   }
+
+  #pic,
+  #bio {
+    width: 100% !important;
+    float: none;           /* cancel the float so they stack cleanly */
+  }
+
   #container1 {
       display: flex;
       flex-direction: column;
   }
   #container2 {
+      display: flex;
+      flex-direction: column;
+  }
+  #container3 {
       display: flex;
       flex-direction: column;
   }
