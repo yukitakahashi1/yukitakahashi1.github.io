@@ -3,8 +3,7 @@
 }
 
 html {
-  /* reserve space on both edges so scrollbars never cause shifts */
-  scrollbar-gutter: stable both-edges;
+  scrollbar-gutter: stable;
 }
 
 h1 { 
