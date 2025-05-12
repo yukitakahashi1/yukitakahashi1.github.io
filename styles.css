@@ -1,12 +1,18 @@
+* {
+  font-family: Sans-serif;
+}
+
+html {
+  /* reserve space on both edges so scrollbars never cause shifts */
+  scrollbar-gutter: stable both-edges;
+}
+
 h1 { 
   margin-top: 8px;
   color: black;
 }
 div {
   box-sizing: border-box;
-}
-* {
-  font-family: Sans-serif;
 }
 
 .navbar-default .navbar-nav>li {
