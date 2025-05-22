@@ -1,1 +1,1 @@
-This is my personal website. This website borrowed heavily from several websites, in particular Yang Zhong (https://yangzhong.nl/) and Julius Ilciukas (https://juliusilciukas.nl/).
+This is my personal website. This website borrowed heavily from several websites, in particular Yang Zhong (<a href="https://yangzhong.nl/" target="_blank">https://yangzhong.nl/</a>) and Julius Ilciukas (<a href="https://juliusilciukas.nl/" target="_blank">https://juliusilciukas.nl/</a>).
