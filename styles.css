@@ -11,7 +11,7 @@ h1 {
   margin-top: 8px;
   color: #444;
 }
-h2, h3, h4 { color: #222; }
+h2, h3, h4 { color: #444; }
 div {
   box-sizing: border-box;
 }
