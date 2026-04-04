@@ -1,6 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+:root {
+  --font-main: 'Lato', sans-serif;
+
+  --color-text: #444;
+  --color-link: #7f190a; /* emerald: #226e93 */
+
+  --color-bg-light: #f1f1f1;
+  --color-bg-button: #f5f5f5;
+
+  --color-border-light: #e6e6e6;
+  --color-border-muted: #ccc;
+
+  --radius-sm: 3px;
+}
+
 * {
-  font-family: 'Lato', sans-serif;
+  font-family: var(--font-main);
 }
 
 html {
@@ -9,9 +25,9 @@ html {
 
 h1 { 
   margin-top: 8px;
-  color: #444;
+  color: var(--color-text);
 }
-h2, h3, h4 { color: #444; }
+h2, h3, h4 { color: var(--color-text); }
 div {
   box-sizing: border-box;
 }
@@ -26,7 +42,7 @@ p {
 }
 
 a {
-  color: #7f190a; /* #226e93 - emerald */
+  color: var(--color-link);
   text-decoration: none;
 }
 a:hover {
@@ -45,7 +61,7 @@ a:hover {
   padding: 0;
 }
 .sectionTitle {
-  border-bottom: 1px solid #444;
+  border-bottom: 1px solid var(--color-text);
   margin-bottom: 10px;
 }
 .paperList {
@@ -64,13 +80,13 @@ a:hover {
   border: none;
   float: none;
   display: inline-block;
-  border-radius: 3px;
+  border-radius: var(--radius-sm);
   width: auto;
 }
 #nav a {
-  border-radius: 3px;
+  border-radius: var(--radius-sm);
   display: block;
-  color: #226e93;
+  color: var(--color-link);
   text-align: center;
   padding: 10px 15px;
   text-decoration: none;
@@ -79,15 +95,15 @@ a:hover {
 }
 
 #nav a:hover {
-  color: #226e93;
-  background-color: #f1f1f1;
+  color: var(--color-link);
+  background-color: var(--color-bg-light);
 }
 
 body {
   max-width: 50em;
   margin: auto;
   padding: 10px;
-  color: #444;
+  color: var(--color-text);
 }
 
 img {
@@ -244,10 +260,10 @@ img {
 .button {
   margin-right: -1px;
   padding: 5px 10px;
-  border: 1px solid #e6e6e6;
-  border-radius: 3px;
-  background-color: #f5f5f5;
-  color: #444;
+  border: 1px solid var(--color-border-light);
+  border-radius: var(--radius-sm);
+  background-color: var(--color-bg-button);
+  color: var(--color-text);
   display: inline-block;
   text-decoration: none;
   cursor: pointer;
@@ -278,6 +294,6 @@ img {
 
 .abstract-content {
   padding: 10px;
-  background-color: #f1f1f1;
-  border: 1px dotted #ccc;
+  background-color: var(--color-bg-light);
+  border: 1px dotted var(--color-border-muted);
 }
